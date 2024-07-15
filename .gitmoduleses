@@ -1,0 +1,4 @@
+[submodule "hyggeFrontend"]
+    path = hyggeFrontend
+    url = https://github.com/your-username/hyggeFrontend.git
+
