@@ -14,7 +14,7 @@ const LogIn = () => {
       <Typography variant="h6" className={classes.parrafo} gutterBottom>
         ¿Que festejamos?
         </Typography>
-      <img src={holas} style={{ height: '350px', width:'200px'}}/>
+      <img src={holas} style={{ height: '350px', width:'200px'}} alt="icono login"/>
       </Paper>
     </div>
   );

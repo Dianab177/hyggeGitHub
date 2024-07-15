@@ -1,5 +1,4 @@
-import { AppBar, Avatar, Drawer, IconButton, InputBase, List, ListItem, makeStyles, Toolbar, Typography } from '@material-ui/core';
-import SearchIcon from '@material-ui/icons/Search';
+import { AppBar, Avatar, Drawer, IconButton, List, ListItem, makeStyles, Toolbar, Typography } from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
 import { useEffect, useState } from 'react';
 import logo from './Assets/hygge.png';
@@ -12,11 +11,10 @@ const NavBar = () => {
   const classes = useStyles()
   const [drawerOpen, setDrawerOpen] = useState(false)
   useEffect(()=>{
-    const responsiveness = () => window. innerWidth < 900 ? setTablet(true) : setTablet(false)
+    const responsiveness = () => window.innerWidth < 900 ? setTablet(true) : setTablet(false)
     responsiveness();
     window.addEventListener('resize', ()=>responsiveness())
   }, [])
-
   const displayTablet = () => {
     const handleDrawerOpen = () => {
       setDrawerOpen(true)

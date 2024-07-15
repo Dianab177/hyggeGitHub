@@ -8,7 +8,6 @@ import Box from "@material-ui/core/Box";
 import BannerTres from "./BannerTres";
 import BannerDos from "./BannerDos";
 import BannerCuatro from "./BannerCuatro";
-import BannerCinco from "./BannerCinco";
 import BannerSeis from "./BannerSeis";
 
 const Banner = () => {
@@ -70,7 +69,6 @@ const Banner = () => {
       <BannerDos />
       <BannerTres />
       <BannerCuatro />
-      
       <BannerSeis />
     </div>
   );

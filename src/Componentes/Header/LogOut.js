@@ -1,4 +1,4 @@
-import { List, ListItemText, makeStyles, Paper, Typography } from "@material-ui/core";
+import {makeStyles, Paper, Typography } from "@material-ui/core";
 import adios from './Assets/adios.png';
 const LogOut = () => {
   const classes = useStyles();
@@ -11,7 +11,7 @@ const LogOut = () => {
       <Typography variant="h6" className={classes.parrafo} gutterBottom>
          Que tengas un día estupendo y ¡te esperamos pronto!
         </Typography>
-      <img src={adios}/>
+      <img src={adios} alt="imagen despedida"/>
         
 
           
